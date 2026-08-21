@@ -2,8 +2,7 @@ name: Deploy aws todo
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   Deploy:
